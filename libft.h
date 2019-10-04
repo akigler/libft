@@ -6,7 +6,7 @@
 /*   By: akigler <akigler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/18 15:40:09 by akigler           #+#    #+#             */
-/*   Updated: 2019/10/04 14:32:56 by akigler          ###   ########.fr       */
+/*   Updated: 2019/10/04 15:37:51 by akigler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,6 +80,7 @@ char	**ft_strsplit(char const *s, char c);
 char	*ft_strtrim(char const *s);
 char	*ft_itoa(int n);
 void	ft_putchar(char c);
+void	ft_putnbr(int n);
 void	ft_putstr(char const *s);
 void	ft_putendl(char const *s);
 void	ft_putchar_fd(char c, int fd);
