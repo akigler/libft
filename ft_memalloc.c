@@ -6,7 +6,7 @@
 /*   By: akigler <akigler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 18:36:38 by akigler           #+#    #+#             */
-/*   Updated: 2019/09/24 13:37:46 by akigler          ###   ########.fr       */
+/*   Updated: 2019/10/04 15:49:10 by akigler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ void	*ft_memalloc(size_t size)
 
 	if (!(ptr = (char *)malloc(size)))
 		return (NULL);
-	bzero(ptr, size);
+	ft_bzero(ptr, size);
 	return ((void *)ptr);
 }
