@@ -6,7 +6,7 @@
 #    By: akigler <akigler@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/18 15:40:29 by akigler           #+#    #+#              #
-#    Updated: 2019/10/04 15:37:49 by akigler          ###   ########.fr        #
+#    Updated: 2019/10/04 19:31:16 by akigler          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,7 +74,7 @@ ft_tolower.c \
 ft_toupper.c \
 say_something.c \
 w_counter.c \
-w_lens.c
+w_lens.c 
 
 OBJS = $(SRCS:.c=.o)
 
@@ -93,7 +93,7 @@ $(NAME): $(OBJS)
 
 compile: FLAGS=-Wall -Wextra
 compile:
-	$(CC) -g $(FLAGS) $(SRC)
+	$(CC) -g $(FLAGS) $(SRCS)
 
 clean:
 	/bin/rm -f *.o
